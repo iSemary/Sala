@@ -1,0 +1,17 @@
+$mainColor: #152b59;
+$secondaryColor: #3a4e8c;
+$hoverColor: #8498bf;
+$whiteColor: #bfcad9;
+body {
+  margin: 0;
+}
+.no-underline {
+  text-decoration: none!important;
+}
+
+:export {
+  mainColor: $mainColor;
+  secondaryColor: $secondaryColor;
+  hoverColor: $hoverColor;
+  whiteColor: $whiteColor;
+}
