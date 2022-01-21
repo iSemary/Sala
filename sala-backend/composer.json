@@ -12,7 +12,9 @@
         "laravel/passport": "^10.3",
         "laravel/sanctum": "^2.11",
         "laravel/socialite": "^5.3",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "mll-lab/laravel-graphql-playground": "^2.5",
+        "nuwave/lighthouse": "^5.36"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

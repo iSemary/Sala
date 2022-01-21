@@ -1,0 +1,26 @@
+type Mutation {
+    register(
+        first_name: String!
+        first_name: String!
+        last_name: String!
+        email: String!
+        gender: String!
+        password: String!
+        password_confirmation: String!
+    ): User @field(resolver: "RegisterMutation@register")
+}
+
+type Query {
+    users: [User!]! @paginate(defaultCount: 10)
+    user(id: ID @eq): User @find
+}
+
+type User {
+    id: ID!
+    first_name: String!
+    last_name: String!
+    username: String!
+    email: String!
+    created_at: DateTime!
+    updated_at: DateTime!
+}
